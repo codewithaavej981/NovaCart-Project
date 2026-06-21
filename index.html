@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NovaCart - E-Commerce Company</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  
+  <header>
+    <nav class="navbar">
+
+      <div class="logo">
+        <a href="index.html">
+          <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+          </svg>
+          </div>
+          <span>NovaCart</span>
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="products.html"><i class="fa-solid fa-box-open"></i> Products</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+        <li><a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+        <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+        <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+        <li><a href="signup.html" class="signup-btn"><i class="fa-solid fa-user-plus"></i> Sign Up</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <h1>Shop Smart,<br>Live Better.</h1>
+
+      <p>
+        Discover quality products at affordable prices.
+        Shop your favourite items with NovaCart.
+      </p>
+
+      <a href="products.html" class="btn">
+        Shop Now
+      </a>
+
+    </div>
+
+    <div class="hero-img">
+      <img src="imgs/hero_img.png" alt="img">
+    </div>
+
+  </section>
+
+  <section class="categories">
+
+    <h2>Shop by Category</h2>
+    <p class="category-text">
+      Explore our top categories and find the products you love.
+    </p>
+
+    <div class="category-box">
+
+      <div class="card">
+        <img src="imgs/electronic_img2.avif" alt="Electronics">
+        <div class="card-content">
+          <h3>Electronics</h3>
+          <a href="products.html">Explore <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imgs/fashion_img.avif" alt="Fashion">
+        <div class="card-content">
+          <h3>Fashion</h3>
+          <a href="products.html">Explore <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imgs/shoes_img2.jpg" alt="Shoes">
+        <div class="card-content">
+          <h3>Shoes</h3>
+          <a href="products.html">Explore <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="imgs/book_img2.jpg" alt="Books">
+        <div class="card-content">
+          <h3>Books</h3>
+          <a href="products.html">Explore <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+ <section class="products">
+
+    <h2>Featured Products</h2>
+
+    <div class="product-box">
+
+        <div class="product-card">
+            <img src="imgs/headphone_img.jpg" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>₹1,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imgs/s_watch_img.webp" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p>₹3,499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imgs/shoes.jpg" alt="Running Shoes">
+            <h3>Running Shoes</h3>
+            <p>₹2,499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="imgs/backpak_img.jpg" alt="Backpack">
+            <h3>Travel Backpack</h3>
+            <p>₹999</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+  <section class="why">
+
+    <h2>Why Choose NovaCart?</h2>
+
+    <div class="why-box">
+
+      <div>
+        <h3>🚚 Fast Delivery</h3>
+        <p>Quick delivery across India.</p>
+      </div>
+
+      <div>
+        <h3>💳 Secure Payment</h3>
+        <p>Safe and trusted payment methods.</p>
+      </div>
+
+      <div>
+        <h3>🎁 Best Offers</h3>
+        <p>Exclusive discounts every week.</p>
+      </div>
+
+      <div>
+        <h3>⭐ Quality Products</h3>
+        <p>Handpicked products with great quality.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <h2>NovaCart</h2>
+
+    <p>Shop Smart, Live Better.</p>
+
+    <p>© 2026 NovaCart. All Rights Reserved.</p>
+
+  </footer>
 </body>
+
 </html>
