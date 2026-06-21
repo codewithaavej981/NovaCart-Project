@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    
+    background: url("https://i.pinimg.com/736x/14/cc/62/14cc6215b6f2ac91dbc39eb2f7746b85.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+
+.container{
+    width:800px;
+    display:flex;
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    
+}
+
+.left-panel{
+    width:40%;
+    background:#2874f0;
+    color:white;
+    padding:40px 25px;
+}
+
+.left-panel h1{
+    margin-bottom:15px;
+}
+
+.left-panel p{
+    margin-bottom:25px;
+    line-height:1.5;
+}
+
+.left-panel ul{
+    list-style:none;
+}
+
+.left-panel li{
+    margin:12px 0;
+}
+
+.right-panel{
+    width:60%;
+    padding:40px;
+}
+
+.right-panel h2{
+    margin-bottom:25px;
+    color:#333;
+}
+
+form input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.options label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    cursor:pointer;
+}
+
+.options input[type="checkbox"]{
+    width:16px;
+    height:16px;
+    margin:0;
+}
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#fb641b;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e85a15;
+}
+
+.signup{
+    text-align:center;
+    margin-top:15px;
+}
+
+@media(max-width:768px){
+    .container{
+        width:90%;
+        flex-direction:column;
+    }
+
+    .left-panel,
+    .right-panel{
+        width:100%;
+    }
+}
