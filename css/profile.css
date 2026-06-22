@@ -1,0 +1,88 @@
+.profile{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:70px 8%;
+    background:#f8f9fa;
+    flex-wrap:wrap;
+}
+
+.profile-card,
+.orders{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.profile-card{
+    width:320px;
+    text-align:center;
+}
+
+.profile-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.profile-card h2{
+    margin-bottom:15px;
+}
+
+.profile-card p{
+    margin:12px 0;
+    color:#555;
+}
+
+.profile-card i{
+    color:#2563eb;
+    margin-right:8px;
+}
+
+.profile-card button,
+.logout{
+    margin-top:20px;
+    padding:10px 20px;
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.logout-btn {
+    padding:10px 20px;
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.orders{
+    width:450px;
+}
+
+.orders h2{
+    margin-bottom:20px;
+}
+
+.order{
+    background:#eef5ff;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+}
+
+.order i{
+    color:#2563eb;
+    margin-right:10px;
+}
