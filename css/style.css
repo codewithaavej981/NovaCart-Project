@@ -247,6 +247,12 @@ body{
     color: #222;
 }
 
+.products p{
+    color: #666;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
 .product-card p{
     color: #2563eb;
     font-size: 18px;
